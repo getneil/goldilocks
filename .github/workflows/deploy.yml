@@ -19,9 +19,8 @@ jobs:
       - name: Set Configuration
         run: echo "$FIREBASE_CONFIG" > firebase.json
 
-      - run: cat firebase.json
-      # - name: Upload to Deno Deploy
-      #   uses: denoland/deployctl@v1
-      #   with:
-      #     project: "goldilocks"
-      #     entrypoint: "./main.ts" # TODO: update entrypoint
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: "goldilocks"
+          entrypoint: "./main.ts" # TODO: update entrypoint
