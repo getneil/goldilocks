@@ -1,5 +1,11 @@
 import { PageProps } from "$fresh/server.ts";
 
-export default function Greet(props: PageProps) {
-  return <div>Hello {props.params.slug}</div>;
+import TeamEditor from "../../islands/TeamEditor.tsx";
+
+export default function Team(props: PageProps) {
+    return (
+        <div class="flex flex-col">
+            <TeamEditor/>
+        </div>
+    );
 }

@@ -9,6 +9,9 @@ import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/teams/[slug].tsx";
 import * as $$0 from "./islands/Counter.tsx";
 import * as $$1 from "./islands/CreateTeamForm.tsx";
+import * as $$2 from "./islands/Schedule.tsx";
+import * as $$3 from "./islands/SelectTimezone.tsx";
+import * as $$4 from "./islands/TeamEditor.tsx";
 
 const manifest = {
   routes: {
@@ -20,6 +23,9 @@ const manifest = {
   islands: {
     "./islands/Counter.tsx": $$0,
     "./islands/CreateTeamForm.tsx": $$1,
+    "./islands/Schedule.tsx": $$2,
+    "./islands/SelectTimezone.tsx": $$3,
+    "./islands/TeamEditor.tsx": $$4,
   },
   baseUrl: import.meta.url,
   config,

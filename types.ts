@@ -9,6 +9,11 @@ export interface Team {
     created_at?: Date | FieldValue;
 }
 
+export interface Tz {
+    label: string;
+    offset: number;
+}
+
 export enum Days {
     SUNDAY = 'SUNDAY',
     MONDAY = 'MONDAY',
