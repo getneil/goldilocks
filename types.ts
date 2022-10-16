@@ -1,8 +1,12 @@
-// collection: /teams/:team_id
+import type {
+    FieldValue,
+  } from "https://cdn.skypack.dev/@firebase/firestore";
+
+// collection: /teams/:slug
 export interface Team {
     name: string;
     slug: string;
-    created_at?: Date;
+    created_at?: Date | FieldValue;
 }
 
 export enum Days {
