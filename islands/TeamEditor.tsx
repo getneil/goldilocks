@@ -9,7 +9,9 @@ export default function TeamEditor() {
                     console.log(tz)
                 }}/>
             </div>
-            <Week/>
+            <Week onChange={(timeBlocks: string[]) => {
+                console.log(timeBlocks)
+            }}/>
         </div>
     );
 }

@@ -15,13 +15,13 @@ export interface Tz {
 }
 
 export enum Days {
-    SUNDAY = 'SUNDAY',
-    MONDAY = 'MONDAY',
-    TUESDAY = 'TUESDAY',
-    WEDNESDAY = 'WEDNESDAY',
-    THURSDAY = 'THURSDAY',
-    FRIDAY = 'FRIDAY',
-    SATURDAY = 'SATURDAY'
+    SUNDAY = 'SUN',
+    MONDAY = 'MON',
+    TUESDAY = 'TUE',
+    WEDNESDAY = 'WED',
+    THURSDAY = 'THU',
+    FRIDAY = 'FRI',
+    SATURDAY = 'SAT'
 }
 
 // collection: /teams/:team_id/users/:user_id
